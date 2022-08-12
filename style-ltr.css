@@ -1,0 +1,152 @@
+
+#wrapper {
+	direction:ltr;
+	unicode-bidi: inherit;
+}
+.right_align {
+	margin: 0 0 0 auto;
+}
+
+.english_version .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.english_version .header_social_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.english_version .active .mobile_menu_area {
+	display: block;
+}
+.english_version .mobile_menu_area {
+    padding: 192px 10px 14px 80px;
+}
+
+@media screen and (max-width: 1023px) {
+	.english_version .logo {
+	    width: 100%
+	}
+	.english_version .mobile_menu_area {
+	    padding: 60px 10px 14px 36px;
+	}
+	.english_version .engineer_btn_wrap {
+	    padding-left: 0;
+	}
+	.menu_close_icon {
+	    right: 15px;
+	    left: inherit;
+	    margin: 0 0 0 auto;
+	}
+}
+
+.banner_area {
+    position: relative;
+    padding: 0 15px;
+}
+.english_version .banner_box {
+    bottom: 144px;
+    padding: 0 15px;
+}
+.english_version .banner_box h1 {
+    font-size: 100px;
+    line-height: 95px;
+    /* font-family: Fb Sandlar reg; */
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.english_version .banner_box h2 {
+    font-size: 75px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+	.english_version .banner_box {
+	    bottom: 47px;
+	}
+	.english_version .banner_box h1 {
+	    font-size: 56px;
+	    line-height: 57px;
+	}
+	.english_version .banner_box h2 {
+	    font-size: 33px;
+	    line-height: 34px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.english_version .banner_box h1 {
+	    font-size: 46px;
+	    line-height: 50px;
+	}
+	.english_version .banner_box h1 strong {
+	    font-size: 47px;
+	    line-height: 48px;
+	}
+	.english_version .banner_box h2 {
+	    font-size: 30px;
+	    line-height: 33px;
+	}
+}
+
+.english_version .fed_box {
+    padding-bottom: 0;
+}
+.english_version .fed_box_left {
+    order: 2;
+}
+.english_version .fed_box_right {
+	order: 1;
+}
+.english_version .more_btn_wrap {
+	padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+	.english_version .fed_box_left {
+	    order: 1;
+	}
+	.english_version .fed_box_right {
+	    order: 2;
+	}
+	.english_version .more_btn_wrap {
+		padding-bottom: 42px;
+	}
+	.english_version .tasty_food_info.fed_box_info p {
+	    padding-bottom: 12px;
+	}
+}
+
+.english_version .popup_box .breadcrumbs_menu {
+    text-align: left;
+    padding: 70px 0 64px 78px;
+}
+.english_version .popup_close_icon {
+    right: 80px;
+    left: inherit;
+}
+.english_version .inner_title {
+	max-width: 694px;
+}
+.english_version .inner_title h2 {
+    line-height: 33px;
+}
+
+@media screen and (max-width: 1023px) {
+	.english_version .popup_box .breadcrumbs_menu {
+	    text-align: left;
+	    padding: 20px 0 36px 15px;
+	}
+	.english_version .popup_close_icon {
+	    right: 18px;
+	}
+	.english_version .inner_title h2 {
+		font-size: 19px;
+	    line-height: 24px;
+	}
+}
